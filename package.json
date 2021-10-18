@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-express-boilerplate",
+  "version": "0.0.1",
+  "description": "nodejs express simple boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babakjahangiri/nodejs-express-boilerplate.git"
+  },
+  "author": "Babak Jahangiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babakjahangiri/nodejs-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/babakjahangiri/nodejs-express-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.13"
+  }
+}
